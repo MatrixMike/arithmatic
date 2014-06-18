@@ -21,6 +21,6 @@ power a b = multiply a (power a (dec b))
 
 logarithm _ 0 = 1 
 logarithm _ 1 = 0 
-logarithm base number = 1 + logarithm 10  (division number base)
+logarithm base number = 1 + logarithm base (division number base)
 
 liveMain =  print $ power 5 5
