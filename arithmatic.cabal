@@ -6,6 +6,7 @@ license: UnspecifiedLicense
 license-file: LICENSE
 maintainer: hawk.alan@gmail.com
 author: Alan Hawkins
+category: Math
 extra-source-files:
     README.md
 
