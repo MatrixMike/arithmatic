@@ -1,7 +1,8 @@
 module Math.Arithmatic where
 
 {-# LANGUAGE NoMonomorphismRestriction #-}
-
+{-# OPTIONS_GHC -fwarn-missing-signatures #-}
+-- changed module name to reflect the directory structure
 inc = (+1)
 dec = (subtract 1)
 
