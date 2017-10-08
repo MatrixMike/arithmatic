@@ -11,6 +11,11 @@ fibon 0 = 0  -- omitted in first version
 fibon 1 = 1
 fibon n = fibon (n-2) + fibon (n-1)
 
+triangle :: Int -> Int
+triangle 1 = 1
+triangle t = t + triangle (t-1)
+
+
 add 0 b = b
 add a b = add (dec a) (inc b)   -- recursive ? decrement first and incr 2nd until first = 0 
 --add a b = add a b -- bad wrong 
